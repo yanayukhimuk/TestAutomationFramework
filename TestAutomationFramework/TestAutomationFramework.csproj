@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;ChromeWEB</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Constants\" />
+    <Folder Include="Core\Helpers\" />
+    <Folder Include="Pages\" />
+  </ItemGroup>
+
+</Project>
