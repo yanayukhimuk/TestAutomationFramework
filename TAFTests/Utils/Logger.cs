@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace TAFTests.Utils
 {
-    internal class Logger
+    public class Logger
     {
+        private static NLog.Logger? logger;
+
+        public Logger()
+        {
+            logger = NLog.LogManager.GetCurrentClassLogger();
+        }
     }
 }
