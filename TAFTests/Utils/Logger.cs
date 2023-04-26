@@ -8,11 +8,11 @@ namespace TAFTests.Utils
 {
     public class Logger
     {
-        private static NLog.Logger? logger;
+        private static NLog.Logger? nlogger;
 
         public Logger()
         {
-            logger = NLog.LogManager.GetCurrentClassLogger();
+            nlogger = NLog.LogManager.GetCurrentClassLogger();
         }
     }
 }
