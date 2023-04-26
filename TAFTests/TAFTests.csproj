@@ -28,6 +28,7 @@
   <ItemGroup>
     <Folder Include="Base\" />
     <Folder Include="Drivers\" />
+    <Folder Include="TAFTests.github\workflows\" />
     <Folder Include="Tests\API\" />
     <Folder Include="Tests\WEB\" />
   </ItemGroup>

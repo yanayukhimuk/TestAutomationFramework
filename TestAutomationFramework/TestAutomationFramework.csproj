@@ -11,6 +11,7 @@
     <Folder Include="Core\Constants\" />
     <Folder Include="Core\Helpers\" />
     <Folder Include="Pages\" />
+    <Folder Include="TestAutomationFramework.github\workflows\" />
   </ItemGroup>
 
   <ItemGroup>
